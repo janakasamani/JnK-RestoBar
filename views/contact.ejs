@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/layout.css">
+    <title>Contact</title>
+</head>
+<body>
+<%- include('partials/header.ejs') %>  
+  <!-- Home pic section -->
+  <section id="promo4">
+    <div class="d-flex justify-content-center align-items-center h-100 text-center pt-8">
+      <div class="text-white">
+        <h1 class="mb-3 display-5 fw-bold link-light">Contact Us</h1>
+        <div class="col-lg-5 mx-auto">
+          <p class="lead mb-3 text-light">We’d love to hear from you! Please don’t hesitate to reach out to us with any questions, comments, or concerns – we’re here to help.
+          </p>
+        </div>
+      </div> 
+    </div>
+  </section>
+  <!-- first section -->
+  <div class="px-4 py-5 my-5 text-center">
+    <h2 class="display-5 text-body-emphasis">OUR LOCATION</h2>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">Lebanon Beirut....</p>
+      <p>12 34 56 7890
+        info@example.com</p>
+    </div>
+  </div>
+  <div class="container text-center pb-8">
+    <h2>Send Us A Message</h2>
+    <p class="col-lg-5 mx-auto pb-3">Have a question or feedback for us? Fill out the form below, and we’ll get back to you as soon as possible.</p>
+    <div class="row justify-content-center mx-auto col-lg-6">
+        <div class="mb-3  w-50">
+            <label for="exampleFormControlInput1" class="form-label">Full Name</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Jana Kasamani">
+        </div>
+        <div class="mb-3 w-50">
+            <label for="exampleFormControlInput1" class="form-label">Email</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="mb-3  w-50">
+            <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+            <textarea class="form-control " id="exampleFormControlTextarea1" rows="4" placeholder="Your Message Here*"></textarea>
+        </div>
+    </div>
+    
+  </div>
+
+<%- include("partials/footer.ejs") %>
+</body>
+</html>
