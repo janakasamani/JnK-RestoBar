@@ -46,3 +46,7 @@
 .pt-8 {
   padding-top: 80px;
 }
+.drink-card-image {
+    height: 306px;
+    width: auto; /* This maintains the aspect ratio */
+}
